@@ -1,0 +1,199 @@
+/**
+ * Every style of the project is here
+ */
+
+body {
+	font-family: 'Open Sans', 'Segoe UI', sans-serif;
+	background-color: #eee;
+	color: #333;
+	/* overflow: hidden; */
+}
+
+form { padding: 20px; width: 300px; display: block; background: #FAFAFA; margin: 0 auto; border-radius: 0; align-items: center; }
+
+input[type=text], input[type=number] {
+	display: block;
+	/*margin: 0 auto 1em auto;*/
+	width: 230px;
+	border: 1px solid #cccccc;
+	-moz-border-radius: 1px;
+	-webkit-border-radius: 1px;
+	padding: 5px;
+}
+
+input[type=button] {
+	width: auto;
+	padding: 6px 6px;
+	background: #617798;
+	border: 0;
+	font-size: 14px;
+	font-weight: bold;
+	color: #FFFFFF;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	cursor: pointer;
+}
+
+input[type=button]:hover {
+	background: #7387A6;
+	-webkit-box-shadow: 1px 1px 8px rgba(0,0,0,.4);
+}
+
+.signature_label {
+
+	text-align: center;
+	font-size: 14px;
+	margin: 0 auto 15px;
+
+}
+
+.subtitle_div {
+
+	width: 605px;
+	text-align: center;
+	font-size: 13px;
+	margin: 0 auto 15px;
+	color: dimgrey;
+
+}
+
+.red {
+
+	background: #8b0000;
+	
+}
+
+.grey {
+
+	background: #CCCCCC;
+	
+}
+
+.modal {
+
+	width: 300px;
+
+}
+
+.jstree_div {
+
+	width: 180px;
+	margin: 0 auto;
+	text-align: left;
+	margin-top: 20px;
+
+}
+
+.console {
+
+	display: none;
+	height: 65px;
+	overflow-y: auto;
+	background-color: #eee;
+	border: solid 1px #979797;
+
+}
+
+/* lower and higher bounds display */
+.roundSpanBounds {
+	display: inline-block;
+	border-radius: 1em;
+	background-color: #cccccc;
+	color: black;
+	font-size: 11px;
+	line-height: 14px;
+	vertical-align: middle;
+	padding-left: 4%;
+	padding-right: 4%;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	margin-bottom: 3px;
+}
+
+/* item count */
+.roundSpanItem {
+	display: inline-block;
+	border-radius: 1em;
+	background-color: #5fa2db;
+	color: black;
+	font-size: 11px;
+	line-height: 14px;
+	vertical-align: middle;
+	padding-left: 4%;
+	padding-right: 4%;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	margin-bottom: 3px;
+}
+
+.ajax-panel {
+
+	height: 20px;
+
+}
+
+h1 {
+	text-align: center;
+	font-weight: 400;
+	font-size: 32px;
+	margin: 10px auto 10px auto;
+}
+
+a {
+	color: #333;
+}
+
+a:hover {
+	color: #666;
+	text-decoration-color: #666;
+}
+
+.h3_form {
+
+	margin-bottom: 30px;
+
+}
+
+.p_buttons {
+
+	margin-top: 15px;
+
+}
+
+/* begin of dynamic rounded div */
+.container {
+	width: 320px;
+	text-align: center;
+	font-weight: 300;
+	display: block;
+	margin: auto;
+	margin-bottom: 24px;
+}
+
+/* content */
+.inner {
+	background: #fff;
+	margin: 0;
+	padding: 18px;
+	border-radius: 20px;
+}
+
+footer {
+	text-align: center;
+	margin-bottom: 62px;
+	margin-top: -15px;
+}
+
+/* mobile-first -- @media increases the size for bigger screens  */
+
+@media(min-width: 560px){
+	.container {
+		width: 420px;
+	}
+}
+
+@media(min-width: 768px){
+	.container {
+		width: 520px;
+	}
+}

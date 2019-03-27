@@ -1,0 +1,7 @@
+RewriteEngine On
+
+# Set by default UTF-8 charset
+AddDefaultCharset UTF-8
+
+# Measures to block out  SQL injection attacks
+RewriteCond %{QUERY_STRING} ^.*(;|<|>|'|"|\)|%0A|%0D|%22|%27|%3C|%3E|%00).*(/\*|union|select|insert|cast|set|declare|drop|update|md5|benchmark).* [NC,OR]
